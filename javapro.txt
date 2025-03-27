@@ -13,13 +13,36 @@ git reset --hard ID
 cat hello.txt
 
 2.
-git checkout -b branch1
+git init
+git remote  add origin URL
+git config --global user.email"  "
+git add .
+git commit -m"version1"
+git push  origin master/main 
+git checkout -b branch1   
+(branch1)   vi hello.txt    changes
 git add .
 git commit -m "b1"
 git switch master
+(master1) 
 git merge branch1
-git diff master
-git merge
+git diff branch1
+(master1)   vi hello.txt    changes
+git add .
+git commit -m "b1"
+git switch branch1
+(branch1)   vi hello.txt    changes
+git add .
+git commit -m "b1"
+git merge master
+
+
+new repository
+new branch
+create new file
+commit changes
+pull request
+o new
 
 4.
 FROM openjdk
