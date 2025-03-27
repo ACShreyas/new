@@ -5,10 +5,12 @@ git config --global user.email"  "
 git add .
 git commit -m"version1"
 git push  origin master/main 
-git clone URL
 git status
+vi hello.txt     changes
+add and commit
 git log
 git reset --hard ID
+cat hello.txt
 
 2.
 git checkout -b branch1
